@@ -1,0 +1,285 @@
+
+	 /* Universidad de Oriente - Nueva Esparta. Licenciatura en Informatica.
+		Grupo de Trabajo:
+
+		Alumnos Asignatura IHM semestre 2015-I */
+
+
+			 /* PLANTILLA DE ESTILO CSS DEL HEADER*/
+
+
+	/*div que produce el efecto de 100% de ancho de pantalla para el nav*/
+	/*si se remueve quedara como centrado*/
+	#container1{
+		background-color: #ECF0F1;
+		width: 100%;
+	}
+
+    /*Header*/
+	#header{
+		background-color: #ECF0F1;
+		color: #34495E;
+		height: 140px;
+		border-radius: 10px 10px 0px 0px;
+    	position: relative;
+	}
+
+	/*contenedor del Logo y texto  */
+
+	#bannerin{
+		height: 140px;
+
+	}
+
+	/* contenedor del Logo*/
+
+	#clogo{
+		width: 140px;
+		height: 140px;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+								/*    Logo  */
+	/*     Nota: Para cambiar de logo colocar la imagin en el directorio raiz
+	       del index con el nombre de favicon.png o editar y cambiar la ruta en
+	       html */
+
+								#logo{
+									width: 100px;
+									height: 100px;
+									margin: 20px;
+								}
+
+	/* contenedor del texto*/
+
+	#bannertext{
+	  	margin: 35px 5px;
+		width: 400px;
+		position: absolute;
+		top: 0px;
+		left: 140px;
+	}
+
+	#titleSup{
+		font-size: 32px;
+		font-style: normal;
+		width: 400px;
+	}
+
+	#titleInf{
+		font-size: 12px;
+		width: 400px;
+	}
+
+   /* Navbar y Componentes */
+
+
+	#navbar{
+	    color: #34495e;
+	    height: 30px;
+	    margin-bottom: 5px;
+	    border-radius: 1px;
+	    display: inline;
+	    padding: 5px 0px;
+	    margin-top: 80px;
+	    font-size: 14px;
+	    text-align: right;
+	    min-width: 600px;
+  	}
+
+  	#navbar ul{
+
+	    padding: 0px;
+	    margin: 0px;
+	    height: 30px;
+
+  	}
+
+  	#navbar li{
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+    /*Botones de navbar , rutas de la pagina*/
+
+    .navbtn{
+
+	    margin: 0px;
+	    padding: 6px 10px;
+	    border-radius: 3px;
+	    text-decoration: none;
+	    color: #34495e;
+	    margin: 0px 2px 0px 5px;
+	     height: 30px;
+    }
+
+    .navbtn:hover, .navbtn:active{
+	    background-color:#ecf0f1;
+	    text-decoration: none;
+	    color: #3498db;
+	    border-bottom: solid #3498db;
+	    border-radius: 0px;
+	    opacity: 0.8;
+    }
+
+
+    .btn2{
+    	margin: 0px 10px;
+    	height: 40px;
+    	padding: 10px 15px;
+    	border-radius: 3px;
+    	text-decoration: none;
+    	color: #34495e;
+    }
+
+    .btn2:hover , .acceso:active{
+    	background-color: #3498db ;
+    	color: #ecf0f1;
+    }
+
+
+
+
+     /* clase actual - colocar a cada pagina dependiendo del tag donde se encuentre ubicado*/
+    /* para montar dinamicamente utilizar un scritp y colocar un id a cada tags o "navbtn" como a1,a2,an */
+
+								    .actual{
+								    	background-color:#ecf0f1;
+									    text-decoration: none;
+									    color: #3498db;
+									    border-bottom: solid #3498db;
+									    border-radius: 0px;
+								    }
+
+
+
+    /*Botton de Login*/
+
+    #login{
+
+    	width: 110px;
+    	height: 30px;
+    	position: absolute;
+    	top: 0px;
+    	right: 15px;
+
+    	margin: 0px 10px;
+    	padding: 5px 10px;
+    	border-radius: 0px 0px 3px 3px;
+
+    	background-color: #3498db ;
+        color: #ecf0f1;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+
+        -webkit-box-shadow: 1px 1px 8px #999;
+  		-moz-box-shadow: 1px 1px 8px #999;
+    	filter: shadow(color=#999999, direction=135, strength=2);
+
+    }
+
+    #login:active{
+    	-webkit-box-shadow: none;
+  		-moz-box-shadow: none;
+    	filter: none;
+
+    }
+
+
+
+
+    /* Medias Query*/
+
+    @media (max-width: 991px) {
+
+
+
+		#bannerin{
+			height: 110px;
+
+		}
+
+		#clogo{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			top: 10px;
+			left: 10px;
+
+		}
+
+		#bannertext{
+		  	margin: 25px 5px;
+			width: 400px;
+			position: absolute;
+			top: 0px;
+			left: 140px;
+		}
+
+		#logo{
+			width: 80px;
+			height: 80px;
+			margin: 10px;
+
+		}
+
+		#navbar ul{
+	    	padding-right: 0px;
+	    }
+
+		#navbar{
+		    background-color: #ecf0f1;
+		    color: #34495e;
+		    height: 40px;
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+		    text-align: center;
+		    padding-top: 12px;
+  		}
+
+	 }
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+
+	}
+	@media (min-width: 1200px) {
+
+
+	}
+
+
+
+/* Set the fixed height of the footer here */
+html {
+position: relative;
+min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 60px;
+background-color: #f5f5f5;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+	/* Colocar aqui Cualquier edicion a realizar:
+
+
+
+
+
+
+	 */

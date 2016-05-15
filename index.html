@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!--Titulo de la Pagina a Mostrar-->
+		<title>CIITI</title>
+
+	<!-- Icono de prueba -->
+		<link href='favicon.png' rel='shortcut icon' type='image/png'>
+
+		<link rel="stylesheet" type="text/css" href="lib/Bootstrap/bootstrap.css">
+
+
+
+	<!--Bootstrap code resposive--> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- PLANTILLA DE ESTILO CSS DEL HEADER -->
+	<!--(importante) ubicado en la carpeta css/ -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+
+</head>
+
+<body>
+
+	<!-- ESTRUCTURA DOM DEL BANNER -->
+	<div id="container1">
+		<div class="container">
+			<div id="header" class="row">
+				<!-- login-->
+				     <div class="dropdown">
+					          <button class="btn dropdown-toggle" type="button" id="login" href="#" data-toggle="dropdown" aria-extended="true">
+					              Iniciar secion
+												<span class="caret"></span>
+										</button>
+
+										<ul class="dropdown-menu" role="menu" aria-labelledby="login">
+												<li><a href="">#1</a></li>
+												<li><a href="">#2</a></li>
+												<li><a href="">#3</a></li>
+												<li><a href="">#4</a></li>
+										</ul>
+							</div>
+				     <div id="banner" class="col-md-4">
+					<div id="bannerin">
+						<div id="clogo" > <img id="logo" src="favicon.png"> </div>
+						<div id="bannertext">
+							<div id="titleSup">CIITI</div>
+							<div id="titleInf">Centro de Investigacion informatica,<br/> Tecnologia e Innovacion </div>
+							<div id="titleInf">Universidad de Oriente - Nueva Esparta</div>
+						</div>
+					</div>
+				</div>
+				<!-- barra de navegacion-->
+				<div id="navbar"  class="col-xs-12 col-sm-12 col-md-8">
+					<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+						<li><a class="active" href="#home" data-toggle="tab">Inicio</a></li>
+						<li><a  href="#about"  data-toggle="tab">Acerca de nosotros</a></li>
+						<li><a  href="#lines-inv" data-toggle="tab">Lineas de investigacion</a></li>
+						<li><a  href="#lines" data-toggle="tab">Lineamientos</a></li>
+						<li><a  href="#inf" data-toggle="tab">Informacion</a></li>
+						<li><a  href="#upload" data-toggle="tab">Subir propuestas</a></li>
+					</ul>
+				</div>
+			</div>
+
+</div><!-- container -->
+		</div>
+	</div>
+	<!-- contenido -->
+	<div class="container1 col-xs-12">
+        <div id="my-tab-content" class="tab-content">
+		           <div class="tab-pane active" id="home">
+								 	<div class="container row">
+								       <div class="col-lg-6">
+		                     <h1>Eyes on Pluto</h1>
+		                     <p>After a journey of more than 9 years and 3 billion miles, the New Horizons spacecraft is
+													 ready for its upclose look at the Pluto system. Using Eyes on the Solar System and simulated
+													 data from the New Horizons flight team you can ride onboard the spacecraft using “Eyes on Pluto”
+													 on your Mac or PC. The picture in picture view shows you where the spacecraft is looking and what
+													 its advanced instruments can see. You can use a “live” mode to see what New Horizons is doing right now,
+													 or preview the flyby of the Pluto System. The spacecraft will be busiest during the time of closest approach
+													 between July 13th and 15th 2015 where you will see the spacecraft turn from target to target as it flies past
+													 Pluto at over 30,000 miles per hour. Click launch to get started, or use the “tours and features” button from
+													 inside Eyes on the Solar System.</p>
+								</div>
+								<div class="col-lg-6">
+									<img src="img/eyes-on-pluto.jpg" alt="">
+								</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-6">
+											<h1> </h1>
+										</div>
+									</div>
+		            </div>
+		           <div class="tab-pane" id="about">
+								 		<div class="container">
+											  <h1>CIITI</h1>
+											  <p>centro de invesigaciones</p>
+								 		</div>
+		            </div>
+		           <div class="tab-pane" id="lines-inv">
+								      <div class="container">
+		                     <h1>lorem</h1>
+		                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, tempora!</p>
+											</div>
+		           </div>
+		           <div class="tab-pane" id="lines">
+								     <div class="container">
+		                     <h1>ipsum</h1>
+		               		   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+		          </div>
+		          <div class="tab-pane" id="inf">
+										 <div class="container">
+		                   <h1>Blue</h1>
+		                   <p>blue blue blue blue blue</p>
+										</div>
+		         </div>
+						 <div class="tab-pane" id="upload">
+							  <div class="container row">
+									<div class="col-sm-5"></div>
+								<div class="col-sm-12 col-lg-6">
+									 <form>
+											<h1>Subir propuesta</h1>
+											  <div class="form-group">
+										      <label for="mensaje">Descripcion:</label>
+											    <input class="form-control" id="mensaje"/>
+												</div>
+												<div class="form-group">
+											   <input type="file" id="archios">
+											   <button class="btn btn-primary"> subir </button>
+											 </div>
+										</form>
+										</div>
+								</div>
+
+						</div>
+		    </div>
+		</div>
+<!--footer-->
+ <footer class="footer">
+	 	 <div class="container">
+ 	 		<div class="row">
+				  <h4>Universidad de Oriente</h4>
+ 	 				<p class="text-muted">Todos los derechos reservados</p>
+ 	 		</div>
+ 	 </div>
+ </footer>
+<!-- jQuery y bootstrap JS-->
+<script src="lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/Bootstrap/bootstrap.js"></script>
+</body>
+
+</html>
